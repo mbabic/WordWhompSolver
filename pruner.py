@@ -1,6 +1,3 @@
-# TODO: DictionaryPruner class so that you don't have globals hanging around.
-
-
 class DictionaryPruner():
     
     capitalLetters = ('A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', \
@@ -60,7 +57,7 @@ class DictionaryPruner():
 
     def is_bad_length(self, word):
         length = len(word)
-        if (length <= 6) and (length >= 2):
+        if (length <= 6) and (length >= 3):
             return False
         return True
 
